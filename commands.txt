@@ -1,0 +1,17 @@
+3. git clone https://github.com/fabio1623/IronFabio.git
+4. touch about.txt
+echo I am portuguese but still a tourist in portugal >> about.txt
+5. git add .
+6. git commit -m "Add about.txt"
+7. git push
+
+Pair programming : 
+3. git branch classmate
+git branch --show-current // show current branch
+git branch // list all branches
+git checkout classmate
+4. touch fabio.txt
+echo enrolled "Ironhack's Data Analytics bootcamp because willing to have software engineering and data backgrounds" >> fabio.txt
+5. git add .
+6. git commit -m "Add fabio.txt"
+git push --set-upstream origin classmate
